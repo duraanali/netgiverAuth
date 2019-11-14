@@ -28,7 +28,7 @@ app.post("/send_verify_code", (req, res) => {
   nexmo.verify.request(
     {
       number: phone_number,
-      brand: "Chat app"
+      brand: "Net Giver"
     },
     (err, result) => {
       console.log("34", err, result);
@@ -54,7 +54,7 @@ app.get("/ccc", () => {
   const message = {
     content: {
       type: "text",
-      text: "Welcome to Chat App"
+      text: "Welcome to Net Giver"
     }
   };
   nexmo.channel.send(
@@ -89,12 +89,12 @@ app.put("/check_verify_code", (req, res) => {
         const message = {
           content: {
             type: "text",
-            text: "Welcome to Chat App"
+            text: "Welcome to Net Giver"
           }
         };
         nexmo.channel.send(
           { type: "sms", number: phone_number },
-          { type: "sms", number: "Chat App" },
+          { type: "sms", number: "Net Giver" },
           message,
           (err, data) => {
             console.log("85", err);
