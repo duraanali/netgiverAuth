@@ -13,7 +13,7 @@ const nexmo = new Nexmo({
 });
 
 app.use(cors());
-const port = 654265412;
+const port = 36329;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
