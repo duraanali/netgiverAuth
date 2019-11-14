@@ -1,7 +1,6 @@
 .DS_Store
 *.sqlite3
 #dotenv environment variables file
-.env
 .env.js
 s3.env.js
 
