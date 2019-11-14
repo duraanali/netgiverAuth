@@ -1,2 +1,0 @@
-# netgiverAuth
-Created with CodeSandbox
