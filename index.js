@@ -6,9 +6,9 @@ const cors = require("cors");
 const path = require("path");
 // path.join(__dirname, "private.key");
 const nexmo = new Nexmo({
-  apiKey: 'ea216f50',
-  apiSecret: 'YYHGGGDV6VLLWiWC',
-  applicationId: '740b5e2b-612d-41ab-bdb8-4e232a80bd49',
+  apiKey: '2910d4dd',
+  apiSecret: 'rT5pgwc8WJhnIZX8',
+  applicationId: 'cd3e608e-0cf6-46e0-ae35-822f1ad2b93c',
   privateKey: path.join(__dirname, "jwtRS256.key")
 });
 
